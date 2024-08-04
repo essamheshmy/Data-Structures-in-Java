@@ -11,6 +11,12 @@ import java.util.List;
 public class Arraylist {
     public static void arraylist(){
 
+        //طريقة التخزين: يستخدم ArrayList مصفوفة ديناميكية لتخزين العناصر. هذا يعني أن العناصر يتم تخزينها في مواقع متجاورة في الذاكرة.
+        //ترتيب العناصر: العناصر في ArrayList يتم ترتيبها وفقًا لمؤشرها (index)، والذي يبدأ من صفر. هذا يجعل الوصول إلى عنصر معين عن طريق المؤشر عملية سريعة جدًا.
+        //الإضافة والحذف: عند إضافة عنصر إلى ArrayList، يتم توسيع المصفوفة إذا لزم الأمر، وهذا قد يكون مكلفًا من حيث الوقت إذا كان هناك حاجة إلى إعادة تخصيص مساحة كبيرة من الذاكرة. أما الحذف، فيتطلب تحريك جميع العناصر التي تلي العنصر المحذوف، مما يؤثر على أداء العملية.
+
+        //ArrayList  Very good at arranging items but very bad at deleting and adding
+
         //Here’s a simple example of how to use ArrayList:
         List<String> list = new ArrayList<>();
 

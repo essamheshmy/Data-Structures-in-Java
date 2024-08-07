@@ -1,14 +1,13 @@
-package Data_Structures_Files;
+package Data_Structures_Files.BasicJavaDataStructures;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 
 // ArrayList is one of the most commonly used data structures in Java.
 // It’s a dynamic array that can grow and shrink in size automatically.
 // It allows you to store any number of elements and can contain duplicates.
-public class Arraylist {
+public class _Arraylist {
     public static void arraylist(){
 
         //طريقة التخزين: يستخدم ArrayList مصفوفة ديناميكية لتخزين العناصر. هذا يعني أن العناصر يتم تخزينها في مواقع متجاورة في الذاكرة.

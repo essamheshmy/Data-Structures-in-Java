@@ -1,16 +1,27 @@
-package Data_Structures_Files;
+package Data_Structures_Files.BasicJavaDataStructures;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class Linkedlist {
-    public static void linkedlist() {
+//LinkedList is another common data structure in Java.
+// It’s a doubly-linked list that stores elements in nodes.
+// Each node contains a pointer to the next node and the previous node,
+// making it efficient for adding and removing elements in the middle of the list.
 
-        //Here’s a simple example of how to use Linked List:
-        List<String> linkedList = new LinkedList();
+
+
+public class _Linkedlist {
+    public static void linkedlist() {
+        //طريقة التخزين: يستخدم LinkedList سلسلة من العقد (nodes)، حيث يحتوي كل عقد على قيمة ومرجعين للعقد السابق والتالي.
+        //ترتيب العناصر: العناصر في LinkedList يتم ترتيبها وفقًا لترتيب العقد، وليس بمؤشر.
+        //الإضافة والحذف: إضافة أو حذف عنصر في LinkedList يتطلب فقط تعديل روابط العقد المجاورة، مما يجعل هذه العمليات أسرع من ArrayList، خاصة في منتصف القائمة.
+
         //linkedList vs ArrayList
         //ArrayList  Very good at arranging items but very bad at deleting and adding
         //linkedLis Better in adding and deleting but expensive in terms of storage
+
+        //Here’s a simple example of how to use Linked List:
+        List<String> linkedList = new LinkedList();
 
         //Added items in linled list
         linkedList.add("linked heshmy 1");

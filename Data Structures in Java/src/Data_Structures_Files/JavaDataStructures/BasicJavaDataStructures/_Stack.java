@@ -1,4 +1,4 @@
-package Data_Structures_Files.BasicJavaDataStructures;
+package Data_Structures_Files.JavaDataStructures.BasicJavaDataStructures;
 
 import java.util.Stack;
 

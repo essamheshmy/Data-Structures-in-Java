@@ -1,4 +1,4 @@
-package Algorithm.Searching
+package Algorithm.Searching.BinarySearch
 
 fun binarySearch(sortedText: List<String>, searchText: String): Int {
     var left = 0
